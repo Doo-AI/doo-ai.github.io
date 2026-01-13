@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+
+  <title>Doo AI｜本地AI模型管理与交互应用（Windows）</title>
+  <meta name="description" content="Doo AI 是一款面向 Windows 的本地 AI 模型管理与交互桌面应用：隐私优先、CPU/GPU 推理、模型扫描管理、聊天与 RAG 知识库、语音交互、角色与工具系统。" />
+
+  <meta property="og:title" content="Doo AI｜本地AI模型管理与交互应用（Windows）" />
+  <meta property="og:description" content="隐私优先 · 本地运行 · 模型管理 · 聊天 · RAG 知识库 · 语音交互" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+
+  <header class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="#top" aria-label="Doo AI 首页">
+          <img src="assets/logo.svg" alt="Doo AI" />
+          <div>
+            <div class="name">Doo AI</div>
+            <div class="tag">本地模型管理 · 聊天 · RAG · 语音</div>
+          </div>
+        </a>
+
+        <nav class="nav-links" aria-label="页面导航">
+          <a href="#features">功能</a>
+          <a href="#workflow">流程</a>
+          <a href="#requirements">系统要求</a>
+          <a href="#privacy">隐私</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn ghost" href="privacy.html">隐私政策</a>
+          <button class="btn" type="button" data-theme-toggle aria-pressed="false">
+            <span class="ic" aria-hidden="true"><img src="assets/icons/settings.svg" alt="" /></span>
+            <span data-theme-label>深色</span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="h-eyebrow"><span class="dot"></span>Windows 10/11 · 本地运行 · 无需云端</div>
+            <h1 class="h-title">把 AI 留在本地：
+              <br/>管理模型、构建知识库、随时对话</h1>
+            <p class="h-sub">Doo AI 是一款面向 Windows 的本地 AI 桌面应用，支持 CPU/GPU 推理、模型扫描与参数配置、聊天交互、RAG 知识库、语音与角色系统。
+              <br/>适合个人隐私场景与离线办公环境。</p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#download" aria-label="前往下载与商店链接">
+                <span class="ic" aria-hidden="true"><img src="assets/icons/model.svg" alt="" /></span>
+                微软商店下载
+              </a>
+              <a class="btn" href="support.html">
+                <span class="ic" aria-hidden="true"><img src="assets/icons/message.svg" alt="" /></span>
+                支持与联系
+              </a>
+              <a class="btn ghost" href="#screens">查看页面素材规范</a>
+            </div>
+
+            <div class="kpis" aria-label="亮点概览">
+              <div class="kpi"><b>隐私优先</b>：默认本地处理</div>
+              <div class="kpi"><b>高性能</b>：CPU/GPU 推理</div>
+              <div class="kpi"><b>RAG</b>：向量+关键词检索</div>
+              <div class="kpi"><b>多会话</b>：历史记录与导出</div>
+            </div>
+          </div>
+
+          <aside class="panel" aria-label="产品预览">
+            <div class="preview">
+              <div class="preview-top">
+                <div class="badge"><span class="pill" aria-hidden="true"></span>本地运行 · 离线可用（取决于模型）</div>
+                <div class="badge">版本：1.0.21</div>
+              </div>
+
+              <div class="preview-card">
+                <div style="display:flex; gap:10px; align-items:center;">
+                  <span class="ic" aria-hidden="true"><img src="assets/icons/search.svg" alt="" /></span>
+                  <div style="font-weight:820; letter-spacing:-.2px;">智能扫描与发现模型</div>
+                </div>
+                <p style="margin:10px 0 0; color:var(--muted); line-height:1.55; font-size:13px;">
+                  自动扫描文件夹识别模型文件，支持批量导入与状态监控；提供参数定制、资源监控与日志。
+                </p>
+              </div>
+
+              <div class="mini">
+                <div class="mini-tile">
+                  <div class="t"><img src="assets/icons/message.svg" alt="" />聊天交互</div>
+                  <p>多轮上下文、Markdown 渲染、历史检索、导入导出。</p>
+                </div>
+                <div class="mini-tile">
+                  <div class="t"><img src="assets/icons/database.svg" alt="" />RAG 知识库</div>
+                  <p>文档导入与分块，向量检索 + BM25，重排序与知识注入。</p>
+                </div>
+              </div>
+
+              <div class="mini" style="margin-top:0">
+                <div class="mini-tile">
+                  <div class="t"><img src="assets/icons/gpu.svg" alt="" />硬件加速</div>
+                  <p>充分利用 CPU/GPU，提供更流畅的本地推理体验。</p>
+                </div>
+                <div class="mini-tile">
+                  <div class="t"><img src="assets/icons/microphone.svg" alt="" />语音交互</div>
+                  <p>TTS 播报与语音输入（STT），适配多场景使用。</p>
+                </div>
+              </div>
+
+              <div class="callout" style="margin-top:4px">
+                提示：微软商店上架页通常需要“隐私政策 URL”和“支持 URL”。本仓库已提供对应页面：<a href="privacy.html"><b>privacy.html</b></a> 与 <a href="support.html"><b>support.html</b></a>。
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <h2>主要功能</h2>
+        <p class="lead">围绕“本地模型生命周期 + 高效交互 + 知识增强”，提供完整的桌面端能力闭环。</p>
+
+        <div class="grid cols-3">
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/model.svg" alt="" /></div>
+              <div>
+                <div class="title">模型管理</div>
+                <small>扫描、导入、配置、监控</small>
+              </div>
+            </div>
+            <ul>
+              <li>自动扫描文件夹并识别模型文件</li>
+              <li>参数定制：温度、上下文、批处理等</li>
+              <li>加载进度、资源占用、日志与状态可视化</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/message.svg" alt="" /></div>
+              <div>
+                <div class="title">聊天交互</div>
+                <small>多轮对话与会话管理</small>
+              </div>
+            </div>
+            <ul>
+              <li>自然多轮对话，保持上下文连贯</li>
+              <li>Markdown 渲染（代码高亮、表格等）</li>
+              <li>历史记录、检索、导入导出</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/database.svg" alt="" /></div>
+              <div>
+                <div class="title">RAG 知识库</div>
+                <small>检索增强生成</small>
+              </div>
+            </div>
+            <ul>
+              <li>多格式文档导入与智能分块</li>
+              <li>向量检索 + BM25 混合检索</li>
+              <li>重排序与知识注入，提升回答可信度</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/microphone.svg" alt="" /></div>
+              <div>
+                <div class="title">语音交互</div>
+                <small>TTS / STT</small>
+              </div>
+            </div>
+            <ul>
+              <li>文字转语音：多引擎可选</li>
+              <li>自动播报与参数调节（音量/语速/音色）</li>
+              <li>语音转文字输入（实时）</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/brain.svg" alt="" /></div>
+              <div>
+                <div class="title">角色系统</div>
+                <small>预设 + 自定义</small>
+              </div>
+            </div>
+            <ul>
+              <li>多种预设角色：助手、翻译、程序员等</li>
+              <li>支持系统提示词与行为特征配置</li>
+              <li>可为角色绑定专属知识库</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/settings.svg" alt="" /></div>
+              <div>
+                <div class="title">工具与系统集成</div>
+                <small>桌面深度集成</small>
+              </div>
+            </div>
+            <ul>
+              <li>系统托盘、通知、快捷方式与高 DPI 适配</li>
+              <li>插件化工具：文件/系统/网络等能力扩展</li>
+              <li>本地数据管理与迁移</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="container">
+        <h2>典型工作流程</h2>
+        <p class="lead">从“导入模型”到“知识增强对话”，几步即可开始高质量本地推理。</p>
+
+        <div class="split">
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/search.svg" alt="" /></div>
+              <div class="title">1) 扫描与导入</div>
+            </div>
+            <ul>
+              <li>选择包含模型文件的文件夹</li>
+              <li>自动识别并展示模型卡片</li>
+              <li>查看加载状态与资源占用</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/settings.svg" alt="" /></div>
+              <div class="title">2) 配置与启动</div>
+            </div>
+            <ul>
+              <li>设置温度、上下文、批处理等参数</li>
+              <li>选择 CPU 或 GPU 推理模式</li>
+              <li>启动模型服务并开始对话</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/database.svg" alt="" /></div>
+              <div class="title">3) 构建知识库</div>
+            </div>
+            <ul>
+              <li>拖拽导入文档（如 PDF/TXT/网页等）</li>
+              <li>自动分块、构建索引</li>
+              <li>在对话中引用知识，获得更可靠回答</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/message.svg" alt="" /></div>
+              <div class="title">4) 管理会话</div>
+            </div>
+            <ul>
+              <li>保存历史记录并快速检索</li>
+              <li>为会话打标签、分类整理</li>
+              <li>导出为多种格式（以应用内为准）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="requirements">
+      <div class="container">
+        <h2>系统要求</h2>
+        <p class="lead">不同模型对硬件要求差异很大。以下为应用建议配置范围（运行大型模型建议更高配置）。</p>
+
+        <table class="table" aria-label="系统要求">
+          <thead>
+            <tr>
+              <th>类别</th>
+              <th>最低</th>
+              <th>推荐</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>操作系统</td>
+              <td>Windows 10 1909+ / Windows 11（64位）</td>
+              <td>Windows 11（64位）</td>
+            </tr>
+            <tr>
+              <td>CPU</td>
+              <td>i5-8400 / Ryzen 5 2600</td>
+              <td>i7-10700K / Ryzen 7 5800X</td>
+            </tr>
+            <tr>
+              <td>内存</td>
+              <td>8GB（轻量模型）</td>
+              <td>32GB（更舒适）</td>
+            </tr>
+            <tr>
+              <td>GPU（可选）</td>
+              <td>集显可用（CPU 推理）</td>
+              <td>RTX 3080 / RX 6800 XT</td>
+            </tr>
+            <tr>
+              <td>存储</td>
+              <td>应用 20GB + 模型空间</td>
+              <td>NVMe SSD 1TB+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="privacy">
+      <div class="container">
+        <h2>隐私与合规说明</h2>
+        <p class="lead">微软商店上架通常会审核隐私说明与支持信息。本页面提供简明承诺，详见 <a href="privacy.html"><b>隐私政策</b></a>。</p>
+
+        <div class="grid cols-2">
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/hard-drive.svg" alt="" /></div>
+              <div>
+                <div class="title">本地优先</div>
+                <small>默认不上传对话与文档内容</small>
+              </div>
+            </div>
+            <ul>
+              <li>对话、知识库、配置等数据以本地存储为主</li>
+              <li>是否联网取决于你选择的模型/插件/更新策略</li>
+              <li>建议在隐私政策中明确：收集项、用途、保留期与删除方式</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/settings.svg" alt="" /></div>
+              <div>
+                <div class="title">透明可控</div>
+                <small>面向商店审核的材料准备</small>
+              </div>
+            </div>
+            <ul>
+              <li>提供可访问的隐私政策 URL</li>
+              <li>提供支持 URL / 联系方式（邮箱、官网或工单）</li>
+              <li>在商店描述中避免不可验证的绝对化声明</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="screens">
+      <div class="container">
+        <h2>商店素材与截图（占位）</h2>
+        <p class="lead">你可以把真实截图放到 <b>website/assets/screenshots/</b> 并替换下面占位图块（微软商店强烈建议提供清晰截图）。</p>
+
+        <div class="grid cols-3">
+          <div class="card">
+            <div style="height:160px;border-radius:14px;border:1px solid var(--stroke);background:linear-gradient(135deg, rgba(124,58,237,.25), rgba(34,211,238,.18));"></div>
+            <p style="margin:10px 0 0; color:var(--muted); font-size:13px;">模型管理页截图（建议 1366×768 以上）</p>
+          </div>
+          <div class="card">
+            <div style="height:160px;border-radius:14px;border:1px solid var(--stroke);background:linear-gradient(135deg, rgba(96,165,250,.22), rgba(124,58,237,.16));"></div>
+            <p style="margin:10px 0 0; color:var(--muted); font-size:13px;">聊天界面截图（展示 Markdown / 代码）</p>
+          </div>
+          <div class="card">
+            <div style="height:160px;border-radius:14px;border:1px solid var(--stroke);background:linear-gradient(135deg, rgba(34,211,238,.20), rgba(96,165,250,.14));"></div>
+            <p style="margin:10px 0 0; color:var(--muted); font-size:13px;">RAG 知识库页截图（导入/检索）</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <p class="lead">整理了微软商店用户最常问的几个问题，方便直接粘贴到商店描述或支持页。</p>
+
+        <div class="accordion">
+          <details class="details">
+            <summary>为什么需要 runFullTrust 权限？</summary>
+            <p>用于本地文件系统访问、模型文件管理、启动与监控本地 AI 进程、桌面集成能力等。具体权限说明建议在商店“功能/权限”与隐私政策中保持一致。</p>
+          </details>
+          <details class="details">
+            <summary>没有 GPU 可以使用吗？</summary>
+            <p>可以。应用支持 CPU 推理，但性能取决于模型规模与硬件配置。拥有 GPU 通常能获得更流畅的体验。</p>
+          </details>
+          <details class="details">
+            <summary>支持哪些模型与格式？</summary>
+            <p>支持多种主流本地模型格式（以当前版本实际实现为准）。建议在商店描述中列出已验证的格式与示例模型，并避免夸大兼容性范围。</p>
+          </details>
+          <details class="details">
+            <summary>是否会收集或上传我的数据？</summary>
+            <p>本项目主张“本地优先”。最终以 <a href="privacy.html"><b>隐私政策</b></a> 为准：明确是否有遥测/崩溃日志、是否联网检查更新、以及用户数据的删除方式。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download">
+      <div class="container">
+        <h2>下载与安装</h2>
+        <p class="lead">发布到微软商店后，把下面的链接替换为你的真实商店 URL（apps.microsoft.com）。</p>
+        <div class="split">
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/model.svg" alt="" /></div>
+              <div>
+                <div class="title">微软商店（推荐）</div>
+                <small>更适合普通用户</small>
+              </div>
+            </div>
+            <ul>
+              <li>在商店页面点击“获取/安装”</li>
+              <li>首次启动后扫描模型文件夹</li>
+              <li>如需帮助：<a href="support.html"><b>支持与联系</b></a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="icon"><img src="assets/icons/settings.svg" alt="" /></div>
+              <div>
+                <div class="title">开发/测试安装</div>
+                <small>适合内测与企业环境</small>
+              </div>
+            </div>
+            <ul>
+              <li>企业/内测建议使用签名与集中部署流程</li>
+              <li>对外发布请以商店版本为准</li>
+              <li>如需定制支持：support@dooai.com（可替换）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <img src="assets/logo.svg" alt="" style="width:26px;height:26px" />
+            <div style="font-weight:820">Doo AI</div>
+          </div>
+          <p style="margin:10px 0 0; line-height:1.6;">本地 AI 模型管理与交互桌面应用（Windows）。</p>
+          <hr class="sep" />
+          <small>© 2026 Doo AI 团队（如需商店合规，请在此处填入主体/版权信息）。</small>
+        </div>
+        <div>
+          <div class="card" style="padding:14px">
+            <div style="font-weight:800; margin-bottom:8px;">上架必备链接</div>
+            <div style="display:grid; gap:8px; font-size:13px; color:var(--muted)">
+              <a href="privacy.html"><b>隐私政策</b>（Privacy Policy URL）</a>
+              <a href="support.html"><b>支持与联系</b>（Support URL）</a>
+              <a href="#requirements"><b>系统要求</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
