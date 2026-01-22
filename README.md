@@ -39,13 +39,10 @@ Have questions or ideas?
 ## 📸 Doo AI 软件截图
 Doo AI的实际操作界面展示：
 
-| 操作界面1 | 操作界面2 |
-|-----------|-----------|
-| ![Doo AI界面](images/ScreenShot_2026-01-21_021516_909.png?raw=true) | ![Doo AI界面](images/屏幕截图2026-01-13161214.png?raw=true) |
-
-| 操作界面3 | 操作界面4 |
-|-----------|-----------|
-| ![Doo AI界面](images/屏幕截图2026-01-13161750.png?raw=true) | ![Doo AI界面](images/屏幕截图2026-01-13161850.png?raw=true) |
+![Doo AI操作界面1](images/interface-1.png?raw=true)
+![Doo AI操作界面2](images/interface-2.png?raw=true)
+![Doo AI操作界面3](images/interface-3.png?raw=true)
+![Doo AI操作界面4](images/interface-4.png?raw=true)
 
 ### ❤️ Support Doo AI Development
 If Doo AI helps you with one-click local AI deployment, consider supporting the independent developer via PayPal:  
