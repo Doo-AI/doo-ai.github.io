@@ -12,7 +12,7 @@ One-click local AI deployment for Windows. No cloud, no hassle.
 
 ## 🎬 Demo
 <!-- B站视频封面+跳转链接 -->
-[![Doo AI 10秒部署本地AI](https://i0.hdslb.com/bfs/archive/2e1c6a6b4c8d9e7f1a2b3c4d5e6f7a8b9c0d1e2f.jpg)](https://www.bilibili.com/video/BV1Tqz7BbEPN/?spm_id_from=333.337.search-card.all.click)
+[![Doo AI 10秒部署本地AI](https://i0.hdslb.com/bfs/archive/2e1c6a6b4c8d9e7f1a2b3c4d5e6f7a8b9c0d1e2f.jpg)](https://www.bilibili.com/video/BV1Tqz7BbEPN/?spm_id_from=333.337.search-card.all.clic[...]
 *Video: 10-second local AI deployment with Doo AI (no code required)*
 
 ## 📥 Download
@@ -39,15 +39,15 @@ Have questions or ideas?
 ## 📸 Doo AI软件截图
 Doo AI的实际操作界面展示：
 
-![界面1](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/00.png)
+![界面1](https://raw.githubusercontent.com/Doo-AI/doo-ai.github.io/main/images/00.png)
 
-![界面2](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/01.png)
+![界面2](https://raw.githubusercontent.com/Doo-AI/doo-ai.github.io/main/images/01.png)
 
-![界面3](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/02.png)
+![界面3](https://raw.githubusercontent.com/Doo-AI/doo-ai.github.io/main/images/02.png)
 
-![界面4](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/04.png)
+![界面4](https://raw.githubusercontent.com/Doo-AI/doo-ai.github.io/main/images/04.png)
 
-![界面5](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/05.png)
+![界面5](https://raw.githubusercontent.com/Doo-AI/doo-ai.github.io/main/images/05.png)
 
 ### ❤️ Support Doo AI Development
 If Doo AI helps you with one-click local AI deployment, consider supporting the independent developer via PayPal:  
@@ -59,4 +59,3 @@ If Doo AI helps you with one-click local AI deployment, consider supporting the 
 - Maintenance of server and technical support  
 
 Your support keeps Doo AI updated and free for core functions!
-
