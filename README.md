@@ -36,18 +36,14 @@ Have questions or ideas?
 - [Open a Discussion](https://github.com/Doo-AI/doo-ai.github.io/discussions)
 - [Submit an Issue](https://github.com/Doo-AI/doo-ai.github.io/issues)
 
-## 📸 Doo AI软件截图
-Doo AI的实际操作界面展示：
-
-![Doo AI界面1](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/00.png)
-
-![Doo AI界面2](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/01.png)
-
-![Doo AI界面3](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/02.png)
-
-![Doo AI界面4](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/03.png)
-
-![Doo AI界面5](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/04.png)
+## 📸 Doo AI软件截图 
+ Doo AI的实际操作界面展示： 
+ 
+ ![Doo AI界面1](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/00.png)
+ ![Doo AI界面2](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/01.png)
+ ![Doo AI界面3](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/02.png)
+ ![Doo AI界面4](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/03.png)
+ ![Doo AI界面5](https://raw.githubusercontent.com/Doo-AI/doo-ai-github.io/main/images/04.png)
 
 ### ❤️ Support Doo AI Development
 If Doo AI helps you with one-click local AI deployment, consider supporting the independent developer via PayPal:  
