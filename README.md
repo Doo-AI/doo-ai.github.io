@@ -36,4 +36,14 @@ Have questions or ideas?
 - [Open a Discussion](https://github.com/Doo-AI/doo-ai.github.io/discussions)
 - [Submit an Issue](https://github.com/Doo-AI/doo-ai.github.io/issues)
 
+### ❤️ Support Doo AI Development
+If Doo AI helps you with one-click local AI deployment, consider supporting the independent developer via PayPal:  
+[Donate to Doo AI (PayPal)](https://paypal.me/DooAIsuppot?locale.x=zh_XC&country.x=C2)  
+
+**How funds will be used**:  
+- Adaptation of new AI models (e.g., Llama 3.1, Qwen 3)  
+- Optimization of RAG feature and Windows compatibility  
+- Maintenance of server and technical support  
+
+Your support keeps Doo AI updated and free for core functions!
 
