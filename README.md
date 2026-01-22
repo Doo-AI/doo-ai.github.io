@@ -36,5 +36,4 @@ Have questions or ideas?
 - [Open a Discussion](https://github.com/Doo-AI/doo-ai.github.io/discussions)
 - [Submit an Issue](https://github.com/Doo-AI/doo-ai.github.io/issues)
 
-## 🌐 Language
-README is also available in [中文](README.zh.md)
+
